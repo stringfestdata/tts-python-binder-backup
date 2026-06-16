@@ -1,0 +1,20 @@
+name: python-data-science
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pandas
+  - numpy
+  - matplotlib
+  - seaborn
+  - scipy
+  - scikit-learn
+  - statsmodels
+  - jupyterlab
+  - notebook
+  - openpyxl
+  - xlrd
+  - ipykernel
+  - pip
+  - pip:
+      - plotly
